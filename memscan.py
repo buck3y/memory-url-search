@@ -60,7 +60,6 @@ def PrettyTable(table):
         print("Saved file as", htmlFileName)
 
 def Main():
-    print("\nWK-4 : Myles Hurlbut - Version 1.3\n")
     while True:
         largeFile = input("Enter the name of a large File i.e d:/WK4/mem.raw >>> ")
         if os.path.isfile(largeFile):
